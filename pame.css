@@ -1,0 +1,30 @@
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav ul li{
+float: left;
+width: auto;
+}
+
+nav ul li a {
+  display: block;
+}
+
+body{
+ background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-colors-wood-board-background_3840x2160.jpg");
+background-size: cover;
+}
+h1{
+  text-align: center;
+
+
+}
+
+p{
+  text-align: center;
+}
+p h1 a li ul{
+  background-color: yellow;
+}
