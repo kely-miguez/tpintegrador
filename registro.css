@@ -8,8 +8,8 @@
 }
 body {
   margin: 0;
-  background: #aaaaaa;
-
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-colors-wood-board-background_3840x2160.jpg");
+  background-size: cover;
 }
 h1{
   color: #fff;

@@ -1,0 +1,21 @@
+em{
+  font-family: cursive;
+  font-size: 30px;
+  text-decoration: underline;
+}
+h1{
+  font-family: sans-serif;
+  text-align: center;
+background-color: pink;
+font-size: 50px;
+text-decoration: underline;
+}
+body{
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-colors-wood-board-background_3840x2160.jpg");;
+  background-size: cover;
+}
+strong{
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+}
