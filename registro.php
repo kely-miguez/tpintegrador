@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<?php
+if(isset($_POST['submit'])) {
+  $nombre = $_POST['nombre'];
+  $apellido = $_POST['apellido'];
+  $correo = $_POST['correo'];
+  $usuario = $_POST['usuario'];
+  $clave = $_POST['clave'];
+  $telefono = $_POST['telefono'];
+}
+ ?>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -22,7 +32,9 @@
         <input type="submit" value="Registrar"class="btn-enviar" required>
         <p class:"form__link">¿Ya tienes una cuenta?<a href="#">Ingresa aqui</a></p>
       </div>
-
+     <?php
+     include("validarform.php");
+      ?>
 
     </form>
 
