@@ -17,22 +17,22 @@
 <header>
   <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="home.html">Home</a>
+    <a class="nav-link active" href="home.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="preguntas.html">F.A.Q.</a>
+    <a class="nav-link active" href="preguntas.php">F.A.Q.</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="registro.html">Registro</a>
+    <a class="nav-link active" href="registro.php">Registro</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link active" href="login.html">Iniciar sesion</a>
+  <a class="nav-link active" href="login.php">Iniciar sesion</a>
   </li>
   <li class="nav-item">
-<a class="nav-link active" href="tp.html">Contacto</a>
+<a class="nav-link active" href="tp.php">Contacto</a>
   </li>
 <li class="nav-item">
-  <a class="nav-link active" href="perfil.html">Perfil</a>
+  <a class="nav-link active" href="perfil.php">Perfil</a>
 </li>
 </ul>
 <div class="jumbotron jumbotron-fluid">

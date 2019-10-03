@@ -33,7 +33,7 @@ if(isset($_POST['submit'])) {
         <p class:"form__link">¿Ya tienes una cuenta?<a href="#">Ingresa aqui</a></p>
       </div>
      <?php
-     include("validarform.php");
+     include('validarform.php');
       ?>
 
     </form>
