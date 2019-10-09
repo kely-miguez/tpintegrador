@@ -1,6 +1,6 @@
 nav ul {
   list-style-type: none;
-  overflow: hidden;
+
 }
 
 nav ul li{
@@ -15,32 +15,24 @@ nav ul li a {
 body {
  background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-colors-wood-board-background_3840x2160.jpg");
  background-size: cover;
-
-}
-h1{
-  text-align: center;
-  font-size: 50px;
-  font-family: sans-serif;
 }
 
-p{
-  text-align: center;
-  background-color: white;
-  border-radius: 20px;
-  font-size: 25px;
+header{
+  width: 80%;
+margin: 0 auto;
+  padding: 5px;
+
 }
 
-p h1 a li ul{
-  background-color: yellow;
+div.class.row{
+  width: 50%;
+  margin: 2.5%;
+  float: right;
 }
-img{
-  width: 30%;
-  height: 20%;
-  margin: auto;
-  display: flex;
-  border-radius: 20px;
-  position: relative;
-}
-div img p{
-  background-color: white;
+ a class="btn btn-primary btn-lg active"{
+   text-align: center;
+ }
+
+section{
+  overflow: hidden;
 }
