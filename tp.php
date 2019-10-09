@@ -9,7 +9,7 @@
 <div class="">
 
 
-    <form class="" action="index.html" method="post">
+    <form class="" action="index.html" method="post" enctype="multipart/form-data">
       <h1>CONTACTO</h1>
       <p>
         <label for="Nombre">
@@ -38,7 +38,17 @@
       <p>
         <input type="submit" name="" value="ENVIAR" id = "boton">
       </p>
-
+      <div class="">
+        <label for="">Cv</label>
+        <input type="file" name="cv" value="">
+  </div>
+      <div class="">
+        <label for="">Foto de Perfil</label>
+        <input type="file" name="foto de perfil" value="">
+      </div>
+     <div class="">
+       <input type="submit" name="" value="Enviar">
+     </div>
 
     </form>
 </div>
