@@ -19,16 +19,12 @@ input{
   border-radius: ;
 }
 .form-register {
-  width: 95%;
-  max-width: 500px;
-  margin: auto;
   background: white;
   border-radius: 7px;
 }
 .form__titulo {
   background: #ffc1c1;
   color: #fff;
-  padding: 20px;
   text-align: center;
   font-weight: 100;
   font-size: 30px;
@@ -36,33 +32,19 @@ input{
   border-top-right-radius: 7px;
 
 }
-.contenedor-inputs {
-  padding: 10px 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 input {
-  margin-bottom: 15px;
   padding: 15px;
   font-size: 16px;
   border-radius: 40px;
   border: 1px solid darkgray;
 }
 
-.input-48 {
-  width: 48%;
-}
 
-.input-100 {
-  width: 100%;
-
-}
 
 .btn-enviar {
   background: crimson;
   color: #fff;
-  margin: auto;
   padding: 10px 40px;
   text-align: center;
   cursor: pointer;
@@ -74,7 +56,6 @@ input {
 }
 .form__link {
   width: 100%;
-  margin: 7px;
   text-align: center;
   font-size: 14px;
 }
