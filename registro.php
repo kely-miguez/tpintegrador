@@ -1,12 +1,5 @@
 <?php
-if(isset($_POST['submit'])) {
-  $nombre = $_POST['nombre'];
-  $apellido = $_POST['apellido'];
-  $correo = $_POST['correo'];
-  $usuario = $_POST['usuario'];
-  $clave = $_POST['clave'];
-  $telefono = $_POST['telefono'];
-}
+
  ?>
  <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -16,25 +9,26 @@ if(isset($_POST['submit'])) {
 
     <title>Formulario de registro</title>
     <link rel="stylesheet" href="CSS/registro.css">
+    <script src="form.js/validar.js">
+
+    </script>
   </head>
   <body>
     <h1>Formulario de registro</h1>
     <form class="" action="" method="post"
-    class="form-register">
+    class="form-register" onsubmit="return validar();">
       <h2 class="form__titulo">CREA UNA CUENTA</h2>
       <div class="contenedor-inputs">
-        <input type="text" name="nombre" placeholder="Nombre"class="input-48" required>
-        <input type="text" name="apellido" placeholder="Apellido"class="input-100" required>
-        <input type="email" name="correo" placeholder="Correo"class="input-48" required>
-        <input type="text" name="usuario" placeholder="Usuario"class="input-48" required>
-        <input type="password" name="clave" placeholder="Contraseña"class="input-48" required>
-        <input type="text" name="Telefono" placeholder="Telefono"class="input-100" required>
-        <input type="submit" value="Registrar"class="btn-enviar" required>
+        <input type="text"id="nombre"name="nombre" placeholder="Nombre"class="input-48">
+        <input type="text"id="apellido"name="apellido" placeholder="Apellido"class="input-100">
+        <input type="email"id="correo" name="correo" placeholder="Correo"class="input-48">
+        <input type="text" id="usuario" name="usuario" placeholder="Usuario"class="input-48">
+        <input type="password"id="clave" name="clave" placeholder="Clave"class="input-48">
+        <input type="text"id="telefono" name="telefono" placeholder="Telefono"class="input-100">
+        <input type="submit" value="Registrar"class="btn-enviar">
         <p class:"form__link">¿Ya tienes una cuenta?<a href="#">Ingresa aqui</a></p>
       </div>
-     <?php
-     include('validarform.php');
-      ?>
+
 
     </form>
 
