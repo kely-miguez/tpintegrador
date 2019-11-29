@@ -13,12 +13,11 @@ nav ul li a {
 }
 
 body {
- background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-colors-wood-board-background_3840x2160.jpg");
  background-size: cover;
 }
 
 header{
-  width: 80%;
+  width: 100%;
 margin: 0 auto;
   padding: 5px;
 
