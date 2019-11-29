@@ -3,3 +3,38 @@ div span{
   float: left;
   background-color: pink;
 }
+.ft__logo {
+  margin: 0 auto 25px;
+  max-width: 615px;
+}
+
+.footer-static-top {
+  background: #ffffff none repeat scroll 0 0;
+  border-bottom: 1px solid #ebebeb;
+  padding: 70px 0;
+  text-align: center;
+}
+.copyright__wrapper {
+  padding: 18px 0; }
+.footer__menu .ft__logo a {
+  display: block;
+  margin-bottom: 25px;
+  text-align: center; }
+.footer__menu .footer__content .mainmenu li {
+  display: inline-block;
+  padding: 0 22px; }
+.footer__menu .footer__content .mainmenu li a {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.4s ease 0s;
+}
+    .footer__menu .footer__content .mainmenu li a:hover {
+      color: #e59285; }
+.page-footer {
+  margin-left: 80px;
+  margin-right: 80px; }
+.bg__cat--8 .footer-static-top {
+  background: #e5928552 none repeat scroll 0 0}
+.brown--color .copy__right__inner p a:hover {
+  color: #ce7852; }

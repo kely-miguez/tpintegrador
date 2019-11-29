@@ -61,7 +61,7 @@
 <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
  </section>
 
-
+	<?php require('plantilla/footer.php') ?>
 
 
 
