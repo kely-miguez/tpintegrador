@@ -1,27 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/stylos.css">
+    <title></title>
+  </head>
+  <body>
 
- <header>
-   <!-- Menu hamburguesa en base64 -->
-   <label for="menu-check" id="menu-toggle">
-     <img class="img-menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAADNCAMAAABXRsaXAAAAaVBMVEUAAAD////4+PjOzs7u7u7R0dH09PSBgYFGRka7u7taWlq6urp+fn5xcXGEhIT8/Pzc3Nw4ODjl5eUxMTFUVFQgICBgYGDHx8dnZ2ctLS2JiYlBQUEoKChERESUlJTDw8NMTEwUFBRtbW2QILMFAAADxUlEQVR4nO2d6ZKqQAxGbRDcUFER3MZl3v8h70w59gbo/UNSlS/nCb5TMwWSpNMjg8iIOwALao1D2zpfFOeRHM7FIv9o3VTcMQegur21zo7cAQfikvZbL7nDDch3j/X4wZ1sUB7jLustd6zB2batx9yZCBi3rPfckQh4xNaSH2SO79A6485DRBpY77jjEHHxrRvuNGQ0nvWcOwwZlbNOuLMQklvrBXcUQhbWesIdhZDCWk+5oxByttbcSUhRaxzUGgdrfedOQsjdWp+4oxCystY37iiEzKz1mjsKIWv3zXXgzkJG7X1popRSRqPMr6V8cach4hxUkEruOESUYY0U4+W1iirDZsOdiICdia0RqkhJy9rk3JkGx7X3vJ7mWtKIQptNYrqsjblyJxuQky8azipsJc5n/FJtTb/1z4u74A44AMsysuyYvEqvBzmvsc3hmrYVdd4MB7XGQa1xUGsc1BoHtcZBrXFQaxzUGge1xkGtcVBrHNQaB7XGQa1xUGsc1BoHtcZBrXFQaxza1uvbqZKzG+hRnW7rj9aZxOM+dTxeGFqXUoelN2W/tcTJ2RdFj3UudaXbk0veZS1/6VXHpi/5xz7+dqUE1hfuSARcYmvJDzLHMrRGObGYBdZyjjy8Z+dbp9xpyPA3fdXcYciYO2uEM5ovEms9445CiNv0teKOQsjEWt+5oxDyZa25k5Ci1jioNQ6Qz/Ap+Psa6bcZ5qYv9zsc85sL6Ps6RaylbLRuhlIjfbV9bD1cdrvnSaseDtr7AOhzdW76ymVff3Hs7Gka2Zvy+/rXvy8wqRs6z29mFYzQuZRDFll2TF41p7mcC5z28/+ZQcJArXFQaxzUGge1xkGtcVBrHNQaB7XGQa1xUGsc1BoHtcZBrXFQaxzUGge1xkGtcVBrHNQaB7X+I73WcuZod/W1+WxdLrlzDsCHu1O3d+6AA3F/Mz0r+Zr3vjuRE9nHm7rvv5Z/8KPjBATCzpT2vfay/72f7GJrjCPYk9Aa5cRiGVhL3cgZE5xOzbjTkOGfRJZ4sKeb2lkjbRhYW+sbdxRC3DYJjNfWk5W1vnNHIcRtieFOQopa46DWOFjrKXcSQs7WWvJmgZjCWiNt+nJbWBGqRy+8TV9z7ixkVN6XZsMdhgx/k7aR09h6zzGoIKEUU6JNXxKbem2i2xCMkbMipZ+9ia3lr7zyWj6uz7XlzjQ4HTfa/Py1Zf+T711zL+xfS36kLX3RcFYhk/rePoZbr+K5lEbij9N5PJDTnkFKZhNJ39vTySJpOeq8GQ5qjcM/Ek9sNuAF0BMAAAAASUVORK5CYII=" alt="">
-   </label>
- <input type="checkbox" id="menu-check">
+  </body>
+</html>
 
-<ul class="nav nav-pills nav-fill">
-  <li class="nav-item">
-    <a class="nav-link" href="index.php">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="contacto.php">Contacto</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="login.php">Iniciar sesion</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="preguntas.php">F.A.Q</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="registro.php">Registro</a>
-  </li>
 
-</ul>
- <a href="index.php" class="logo"><img class="" src="img/portada1.jpg" alt=""></a>
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-light navbar-5 white">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand"> <img src="img/logo.png" alt="logo"> </a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+      aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.php">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro.php">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item" href="login.php">Iniciar sesion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item" href="preguntas.php">Preg.frecuentes</a>
+        </li>
+      </ul>
+      <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+  </nav>
+  <!--/.Navbar-->
+
+
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/portada1.jpg" class="d-block w-100" alt="portada1">
+    </div>
+    <div class="carousel-item">
+      <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</header>

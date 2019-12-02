@@ -16,49 +16,74 @@
 
  ?>
 
-<br>
-<h1>PRODUCTOS</h1>
+
  <section>
-<article class="">
-  <img src="img/ropa1.png" alt="">
-  <img src="img/ropa11.png" alt="">
-</article>
-  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
-<br>
-<br>
-   <article class="">
-           <img src="img/imagen 2.png" alt="">
-           <img src="img/imagen12.png" alt="">
-   </article>
-<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
-   <br>
-<br>
-   <article class="">
-           <img src="img/imagen3.png" alt="">
-           <img src="img/imagen13.png" alt="">
-   </article>
-<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
-   <br>
-   <br>
-   <article class="">
-     <img src="img/imagen4.png" alt="">
-     <img src="img/imagen14.png" alt="">
-   </article>
-<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
-   <br>
-          <br>
-   <article class="">
-           <img src="img/imagen5.png" alt="">
-           <img src="img/imagen15.png" alt="">
-   </article>
-   <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
-   <br>
-   <br>
-   <article class="">
-            <img src="img/imagen6.png" alt="">
-            <img src="img/imagen16.png" alt="">
-   </article>
-<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">AÑADIR AL CARRITO</a>
+   <article class="nuevas" id="peliculas">
+      <div class="container">
+        <div class="producto">
+           <a href="#">
+            <img src="img/imagen3.png" alt="" class="prod-img">
+            <h4>Ver más</h4>
+            <h3 class="prod-titulo">mmmmmm</h3>
+          </a>
+        </div>
+
+          <div class="producto">
+            <a href="#">
+              <img src="img/imagen4.png" alt="" class="prod-img">
+              <h4>Ver más</h4>
+              <h3 class="prod-titulo">hhhhhhhhhhh</h3>
+            </a>
+          </div>
+
+          <div class="producto">
+            <a href="#">
+              <img src="img/imagen5.png" alt="" class="peli-img">
+              <h4>Ver más</h4>
+              <h3 class="peli-titulo">Star Wars</h3>
+            </a>
+          </div>
+
+      </div>
+
+    </article>
+
+    <article class="tres-d" id="producto">
+
+            <div class="producto">
+              <h2>Películas gratuitas</h2>
+
+              <div class="producto">
+                <a href="#">
+                  <img src="img/imagen5.png" alt="" class="prod-img">
+
+                  <h4>Ver más</h4>
+                  <h3 class="prod-titulo">Corazón Valiente</h3>
+                </a>
+              </div>
+
+                <div class="producto">
+                  <a href="#">
+                    <img src="img/imagen5.png" alt="" class="prod-img">
+
+                    <h4>Ver más</h4>
+                    <h3 class="prod-titulo">Piratas del Caribe</h3>
+                  </a>
+                </div>
+
+                <div class="producto">
+                  <a href="#">
+                    <img src="img/imagen 2.png" alt="" class="prod-img">
+
+                    <h4>Ver más</h4>
+                    <h3 class="prod-titulo">Thor</h3>
+                  </a>
+                </div>
+
+            </div>
+
+          </article>
+
  </section>
 
 

@@ -3,3 +3,93 @@ div span{
   float: left;
   background-color: pink;
 }
+body{
+  background-image: url('../img/background.jpg');
+  background-size: 300px;
+  background-attachment: fixed;
+}
+.container{
+  width: 960px;
+  margin: 60px auto;
+  padding: 0;
+}
+
+#menu-toggle{
+  display: none;
+}
+.img-menu{
+  width: 30px;
+}
+#menu-check{
+  display: none;
+}
+
+
+header{
+  background-color: #f7848f;
+  width: 100%;
+  height: 23%;
+  top: 10px;
+  margin: 0 auto;
+}
+
+.container header {
+  background-color: rgb(202,75,75);
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: visible;
+  z-index: 50;
+}
+
+.navigation{
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  transition: 500ms;
+}
+
+.navigation-ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.navigation-ul li{
+   display: inline-block;
+   padding: 10px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.derechos{
+  float: right;
+  margin-right: 3px;
+}
+
+
+
+a.logo{
+    width: 130px;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-500%);
+}
+a.logo img{
+    width: 60%;
+}
+
+
+.principal{
+  margin-top: 67px;
+}
+
+
+
+.img-menu, #menu-check{
+
+}
