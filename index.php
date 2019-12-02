@@ -16,73 +16,9 @@
 
  ?>
 
-
+<br>
  <section>
-   <article class="nuevas" id="peliculas">
-      <div class="container">
-        <div class="producto">
-           <a href="#">
-            <img src="img/imagen3.png" alt="" class="prod-img">
-            <h4>Ver más</h4>
-            <h3 class="prod-titulo">mmmmmm</h3>
-          </a>
-        </div>
-
-          <div class="producto">
-            <a href="#">
-              <img src="img/imagen4.png" alt="" class="prod-img">
-              <h4>Ver más</h4>
-              <h3 class="prod-titulo">hhhhhhhhhhh</h3>
-            </a>
-          </div>
-
-          <div class="producto">
-            <a href="#">
-              <img src="img/imagen5.png" alt="" class="peli-img">
-              <h4>Ver más</h4>
-              <h3 class="peli-titulo">Star Wars</h3>
-            </a>
-          </div>
-
-      </div>
-
-    </article>
-
-    <article class="tres-d" id="producto">
-
-            <div class="producto">
-              <h2>Películas gratuitas</h2>
-
-              <div class="producto">
-                <a href="#">
-                  <img src="img/imagen5.png" alt="" class="prod-img">
-
-                  <h4>Ver más</h4>
-                  <h3 class="prod-titulo">Corazón Valiente</h3>
-                </a>
-              </div>
-
-                <div class="producto">
-                  <a href="#">
-                    <img src="img/imagen5.png" alt="" class="prod-img">
-
-                    <h4>Ver más</h4>
-                    <h3 class="prod-titulo">Piratas del Caribe</h3>
-                  </a>
-                </div>
-
-                <div class="producto">
-                  <a href="#">
-                    <img src="img/imagen 2.png" alt="" class="prod-img">
-
-                    <h4>Ver más</h4>
-                    <h3 class="prod-titulo">Thor</h3>
-                  </a>
-                </div>
-
-            </div>
-
-          </article>
+  
 
  </section>
 
