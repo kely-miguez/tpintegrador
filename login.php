@@ -49,46 +49,6 @@ session_start();
 
 
 
-  if($_POST){
-    $errores=[];
-    $usuario=[];
-    $_SESSION['selogeo']="";
-    if($_POST['email']!=''){
-      $email=$_POST['email'];
-    }
-    else{
-      $errores[]="Ingrese su email";
-    }
-    if($_POST['password']!=''){
-      $password=$_POST['password'];
-    }
-    else{
-      $errores[]="Ingrese su contraseña";
-    }
-    if(empty($errores)){
-
-    $usuariosjson=FILE_GET_CONTENTS('usuario.json');
-    $datosusuarios=json_decode($usuariosjson,true);
-
-  }
-}
- if(isset($_SESSION['selogeo'])){
-
-   $_SESSION['email']='';
-   $_SESSION['nombres']='';
-   $_SESSION['selogeo']='';
- }
-  if(isset($_POST['mantenerme']) && $_SESSION['selogeo']==true){
-    setcookie('email', $email, time() + 60*60*24*30);
-    header('location:perfil.php');
-  }
-  else{
-    if(isset($_SESSION['selogeo'])){
-      header('location:perfil.php');
-    }
-  }
-
- ?>
  <!doctype html>
  <html class="en" lang="ltr">
  <head>
@@ -119,9 +79,34 @@ session_start();
   <body>
     <form class="" action="" method="post">
       <h2>Inicie sesión o Registrese</h2>
-      <input type="email" placeholder="&#128272; email" name="Email">
-      <input type="password" placeholder="&#128272; password" name="password">
-      <input type="submit" value="Ingresar">
+      <div class="container">
+      <h4>Iniciar Sesión</h4>
+
+      <?php
+      if($_POST){
+      if($_SESSION['selogeo']!=true && empty($errores)){
+      echo "email o contraseña invalida";
+    }
+    else{
+      foreach($errores as $error){
+        echo $error;
+        echo '<br>';
+      }
+  }
+  echo '<br>';
+}
+       ?>
+      <form class="" action="login.php" method="post" enctype="multipart/form-data">
+      <input class="controles" type="email" name="email" value="" placeholder="Ingrese su correo electronico">
+      <input class="controles" type="password" name="password" value="" placeholder="Ingrese su contraseña">
+      <input type="checkbox" name="mantenerme" value="">
+      <label for="">Mantenerme logueado</label>
+      <button class="" type="submit" class="btn btn-secondary btn-sm">Login</button>
+      </form>
+      <p>No tienes cuenta? <a class="link" href="registro.php">Registrate</a></a> </p>
+
+    </div>
+
 
    <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
      <div class="footer-static-top">
