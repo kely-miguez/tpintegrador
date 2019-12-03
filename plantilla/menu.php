@@ -36,9 +36,15 @@
         <li class="nav-item">
           <a class="nav-link" href="registro.php">Registro</a>
         </li>
+        <br>
         <li class="nav-item">
           <a class="nav-item" href="login.php">Iniciar sesion</a>
         </li>
+         <br>
+        <li class="nav-item">
+          <a class="nav-item" href="perfil.php">Perfil</a>
+        </li>
+        <br>
         <li class="nav-item">
           <a class="nav-item" href="preguntas.php">Preg.frecuentes</a>
         </li>
