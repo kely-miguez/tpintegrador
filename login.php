@@ -72,7 +72,7 @@ session_start();
  	<link rel="stylesheet" href="css/bootstrap.min.css">
  	<link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/logini.css">
   <link rel="stylesheet" href="css/custom.css">
 
   </head>
