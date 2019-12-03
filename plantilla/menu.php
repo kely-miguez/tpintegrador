@@ -66,6 +66,9 @@
     <div class="carousel-item">
       <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
     </div>
+    <div class="carousel-item">
+      <img src="img/ropachico.jpg" class="d-block w-100" alt="portada3">
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

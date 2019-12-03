@@ -106,6 +106,7 @@ session_start();
       <p>No tienes cuenta? <a class="link" href="registro.php">Registrate</a></a> </p>
 
     </div>
+  
 
 
    <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
