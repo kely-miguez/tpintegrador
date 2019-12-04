@@ -61,7 +61,6 @@ session_start();
 
 
   <link rel="stylesheet" href="perfil.php">
-<<<<<<< HEAD
  	<link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/stylos.css">
   <link rel="stylesheet" href="CSS/login.css">
@@ -79,7 +78,7 @@ session_start();
   							</a>
   						</div>
   					</div>
-  				
+
   		</header>
 
           <div class="ht__bradcaump__area bg-image--3">
@@ -100,20 +99,7 @@ session_start();
           </div>
 
     <div class="container">
-=======
- 	<link rel="stylesheet" href="css/bootstrap.min.css">
- 	<link rel="stylesheet" href="css/plugins.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/logini.css">
-  <link rel="stylesheet" href="css/custom.css">
 
-  </head>
-  <body>
-    <form class="" action="" method="post">
-      <h2>Inicie sesión o Registrese</h2>
-      <div class="container">
->>>>>>> c0dd2512e8a2df9d382bd9ca520b934890ee1260
-      <h4>Iniciar Sesión</h4>
 
       <?php
       if($_POST){
@@ -139,12 +125,8 @@ session_start();
       <p>No tienes cuenta? <a class="link" href="registro.php">Registrate</a></a> </p>
 
     </div>
-  
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c0dd2512e8a2df9d382bd9ca520b934890ee1260
    <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
      <div class="footer-static-top">
        <div class="container">
@@ -157,11 +139,6 @@ session_start();
                  </a>
                  <p>Dayross marca lider en indumentaria kids.</p>
                </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
              </div>
            </div>
          </div>
