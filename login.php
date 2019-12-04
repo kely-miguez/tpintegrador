@@ -61,7 +61,8 @@ session_start();
 
 
   <link rel="stylesheet" href="perfil.php">
- 	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="CSS/stylos.css">
   <link rel="stylesheet" href="CSS/login.css">
 
@@ -74,7 +75,7 @@ session_start();
   					<div class="col-md-4 col-sm-4 col-7 col-lg-2">
   						<div class="logo">
   							<a href="index.php">
-  								<img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/318/2342459318_d7484af5-64db-4947-976b-1069df3db2a5.png?cb=1571669948" alt="logo images">
+  								<img src="img/logo.png" alt="logo images">
   							</a>
   						</div>
   					</div>
