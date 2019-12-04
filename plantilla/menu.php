@@ -36,9 +36,15 @@
         <li class="nav-item">
           <a class="nav-link" href="registro.php">Registro</a>
         </li>
+        <br>
         <li class="nav-item">
           <a class="nav-item" href="login.php">Iniciar sesion</a>
         </li>
+         <br>
+        <li class="nav-item">
+          <a class="nav-item" href="perfil.php">Perfil</a>
+        </li>
+        <br>
         <li class="nav-item">
           <a class="nav-item" href="preguntas.php">Preg.frecuentes</a>
         </li>
@@ -59,6 +65,9 @@
     </div>
     <div class="carousel-item">
       <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ropachico.jpg" class="d-block w-100" alt="portada3">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

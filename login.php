@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-
-
   if($_POST){
     $errores=[];
     $usuario=[];
@@ -20,14 +18,19 @@ session_start();
       $errores[]="Ingrese su contraseña";
     }
     if(empty($errores)){
-
     $usuariosjson=FILE_GET_CONTENTS('usuario.json');
     $datosusuarios=json_decode($usuariosjson,true);
 
+    foreach ($datosusuarios as $usuarios) {
+      if($usuarios['email']==$email && password_verify($password, $usuarios['password'])){
+        $_SESSION['email']=$email;
+        $_SESSION['nombres']=$usuarios['nombres'];
+        $_SESSION['selogeo']=true;
+
+      }
   }
 }
- if(isset($_SESSION['selogeo'])){
-
+ if($_SESSION['selogeo']!=true){
    $_SESSION['email']='';
    $_SESSION['nombres']='';
    $_SESSION['selogeo']='';
@@ -37,12 +40,15 @@ session_start();
     header('location:perfil.php');
   }
   else{
-    if(isset($_SESSION['selogeo'])){
+    if($_SESSION['selogeo']==true){
       header('location:perfil.php');
     }
   }
-
+}
  ?>
+
+
+
  <!doctype html>
  <html class="en" lang="ltr">
  <head>
@@ -55,6 +61,7 @@ session_start();
 
 
   <link rel="stylesheet" href="perfil.php">
+<<<<<<< HEAD
  	<link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/stylos.css">
   <link rel="stylesheet" href="CSS/login.css">
@@ -93,6 +100,19 @@ session_start();
           </div>
 
     <div class="container">
+=======
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/logini.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+  <body>
+    <form class="" action="" method="post">
+      <h2>Inicie sesión o Registrese</h2>
+      <div class="container">
+>>>>>>> c0dd2512e8a2df9d382bd9ca520b934890ee1260
       <h4>Iniciar Sesión</h4>
 
       <?php
@@ -119,7 +139,12 @@ session_start();
       <p>No tienes cuenta? <a class="link" href="registro.php">Registrate</a></a> </p>
 
     </div>
+  
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0dd2512e8a2df9d382bd9ca520b934890ee1260
    <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
      <div class="footer-static-top">
        <div class="container">
@@ -130,7 +155,7 @@ session_start();
                  <a href="index.php">
                      <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/318/2342459318_d7484af5-64db-4947-976b-1069df3db2a5.png?cb=1571669948" alt="logo images">
                  </a>
-                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages</p>
+                 <p>Dayross marca lider en indumentaria kids.</p>
                </div>
              </div>
            </div>
