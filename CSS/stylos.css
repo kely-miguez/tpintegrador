@@ -366,3 +366,158 @@ height: 500px; }
   flex-wrap: wrap; }
 .login-form-wrap .single-login-form.space-between input + input {
   margin-top: 30px; } }
+  /*--------------------------
+    Contact Styles
+  ----------------------------*/
+  .contact__title {
+    color: #2e2e2e;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .contact-form-wrap p {
+    color: #333;
+    margin-bottom: 35px;
+  }
+  .contact-form-wrap .single-contact-form {
+    margin: 0 0 35px; }
+    .contact-form-wrap .single-contact-form.space-between {
+      display: flex;
+      justify-content: space-around;
+      margin-left: -10px;
+      margin-right: -10px; }
+      .contact-form-wrap .single-contact-form.space-between input {
+        margin: 0 10px; }
+  .contact-form-wrap .single-contact-form input {
+    border: 1px solid #c1c1c1;
+    border-radius: 0;
+    height: 42px;
+    outline: medium none;
+    padding: 0 0px;
+    width: 100%;
+    border-bottom: 1px solid #c1c1c1;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+  }
+    .contact-form-wrap .single-contact-form textarea {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+      border: 1px solid #c1c1c1;
+  	border-bottom: 1px solid #c1c1c1;
+      border-radius: 0;
+      max-width: 100%;
+      padding: 10px;
+      height: 180px;
+      padding: 0px;
+  	border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      width: 100%;
+      outline: none; }
+  .contact-form-wrap .contact-btn button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #333;
+    box-shadow: none;
+    color: #333;
+    display: inline-block;
+    font-family: Poppins,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 2px 20px 0;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s; }
+    .contact-form-wrap .contact-btn button:hover {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+      border-color: #e59285;
+      color: #e59285; }
+  .wn__address p {
+    color: #333;
+    margin-bottom: 35px;
+  }
+  .wn__address .single__address {
+    display: flex; }
+    .wn__address .single__address i {
+      color: #353535;
+      font-size: 20px;
+      margin-right: 20px;
+      margin-top: 10px; }
+    .wn__address .single__address .content span {
+      color: #353535;
+      display: inline-block;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .wn__address .single__address .content p {
+      color: #333;
+      font-size: 12px;
+      margin-bottom: 15px; }
+  #googleMap {
+    width: 100%;
+    height: 500px; }
+
+  @media only screen and (max-width: 420px) {
+    .contact-form-wrap .single-contact-form.space-between {
+      flex-wrap: wrap; }
+    .contact-form-wrap .single-contact-form.space-between input + input {
+      margin-top: 30px; } }
+  /*--------------------------
+    Faq Styles
+  ----------------------------*/
+  .wn_accordion .card {
+    border: 0 none;
+    margin-bottom: 20px; }
+  .acc-header h5 a {
+    background: #eee none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 40px 18px 26px;
+    position: relative; }
+  .wn_accordion .card {
+    border: 1px solid #e1e1e1;
+    border-radius: 0; }
+  .wn_accordion .card-body {
+    color: #333;
+    font-size: 13px;
+    padding-left: 18px;
+    padding-right: 18px; }
+  .acc-header h5 a.collapsed::after {
+    background-image: url("images/others/toggle_open.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px; }
+  .acc-header h5 a::after {
+    background-image: url("images/others/toggle_close.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px; }
+  .wn__accordeion__content {
+    margin-bottom: 36px; }
+  .wn__accordeion__content h2 {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    padding: 0 0 5px;
+  }
+    .wn__accordeion__content p {
+    color: #333;
+    font-size: 13px;
+  }
