@@ -47,6 +47,7 @@ if ($_POST) {
     <?php
     require_once('plantilla/header.php');
      ?>
+
          <div class="ht__bradcaump__area bg-image--6">
              <div class="container">
                  <div class="row">

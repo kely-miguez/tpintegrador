@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Preguntas</title>
     <link rel="stylesheet" href="CSS/preguntas.css">
+      <link rel="stylesheet" href="CSS/stylos.css">
   </head>
   <body>
     <h1>Preguntas Frecuentes
@@ -54,6 +55,8 @@ luego de acreditado el pago.</strong>
     <br>
 <strong>Ponte en contacto con nosotros a www.dayross@gmail.com.ar</strong>
 </p>
-
+<?php
+require_once('plantilla/footer.php');
+ ?>
   </body>
 </html>

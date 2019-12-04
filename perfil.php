@@ -23,12 +23,17 @@ $autenticar = new Autenticador();
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/perfil.css">
+
     <title></title>
   </head>
+  <?php
+require_once('plantilla/header.php');
+   ?>
   <body>
-    <h1>PERFIL</h1>
+    <h1>Bienvenido</h1>
   <div class="continer"; >
-    Julian Gomez
+    <form class="" action="registro.php" method="post" enctype="multipart/form-data">
+    <input class="controles" type="text" name="nombres" placeholder =" nombre">
 
   </div>
   <br>
@@ -49,6 +54,8 @@ julian-gomez@gmail.com
       <button type="submit" name="button">Cerrar Sesion</button>
   </form>
   <a href="logout.php">Salir</a>
-
+  <?php
+  require_once('plantilla/footer.php');
+   ?>
   </body>
 </html>
