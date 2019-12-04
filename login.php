@@ -68,37 +68,28 @@ session_start();
 
   </head>
   <body>
-    <div class="wrapper" id="wrapper">
-  		<header id="wn__header" class="oth-page header__area header__absolute sticky__header">
-  			<div class="container-fluid">
-  				<div class="row">
-  					<div class="col-md-4 col-sm-4 col-7 col-lg-2">
-  						<div class="logo">
-  							<a href="index.php">
-  								<img src="img/logo.png" alt="logo images">
-  							</a>
-  						</div>
-  					</div>
+
 
   		</header>
 
+<?php
+require_once('plantilla/header.php');
+require_once('plantilla/menu.php');
+ ?>
+<br>
           <div class="ht__bradcaump__area bg-image--3">
               <div class="container">
                   <div class="row">
                       <div class="col-lg-12">
                           <div class="bradcaump__inner text-center">
                           	<h2 class="bradcaump-title">Iniciar sesion</h2>
-                              <nav class="bradcaump-content">
-                                <a class="breadcrumb_item" href="index.php">Home</a>
-                                <span class="brd-separetor">/</span>
-                                <span class="breadcrumb_item active">Iniciar sesion</span>
-                              </nav>
+
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-
+<br>
     <div class="container">
 
 

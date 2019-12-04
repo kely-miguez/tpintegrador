@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="CSS/stylos.css">
-    <title></title>
-  </head>
-  <body>
-
-  </body>
-</html>
-
-
 <header>
 
   <!--Navbar-->
@@ -37,17 +24,11 @@
         <li class="nav-item">
           <a class="nav-link" href="registro.php">Registro</a>
         </li>
-        <br>
         <li class="nav-item">
-          <a class="nav-item" href="login.php">Iniciar sesion</a>
+          <a class="nav-link" href="login.php">Iniciar sesion</a>
         </li>
-         <br>
         <li class="nav-item">
-          <a class="nav-item" href="perfil.php">Perfil</a>
-        </li>
-        <br>
-        <li class="nav-item">
-          <a class="nav-item" href="preguntas.php">Preg.frecuentes</a>
+          <a class="nav-link" href="preguntas.php">Preg.frecuentes</a>
         </li>
       </ul>
       <!-- Links -->
@@ -59,26 +40,6 @@
   <!--/.Navbar-->
 
 
-   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/portada1.jpg" class="d-block w-100" alt="portada1">
-    </div>
-    <div class="carousel-item">
-      <img src="img/portada2.jpg" class="d-block w-100" alt="portada2">
-    </div>
-    <div class="carousel-item">
-      <img src="img/ropachico.jpg" class="d-block w-100" alt="portada3">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+
 
 </header>
