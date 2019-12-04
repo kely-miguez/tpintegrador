@@ -53,21 +53,11 @@ session_start();
  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
- 	<link rel="shortcut icon" href="images/favicon.ico">
- 	<link rel="apple-touch-icon" href="images/icon.png">
-
- 	<!-- Google font (font-family: 'Roboto', sans-serif; Poppins ; Satisfy) -->
- 	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
- 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,600i,700,700i,800" rel="stylesheet">
- 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-
 
   <link rel="stylesheet" href="perfil.php">
- 	<link rel="stylesheet" href="css/bootstrap.min.css">
- 	<link rel="stylesheet" href="css/plugins.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
-  <link rel="stylesheet" href="css/custom.css">
+ 	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/stylos.css">
+  <link rel="stylesheet" href="CSS/login.css">
 
   </head>
   <body>
@@ -82,24 +72,7 @@ session_start();
   							</a>
   						</div>
   					</div>
-  					<div class="col-lg-8 d-none d-lg-block">
-  						<nav class="mainmenu__nav">
-  							<ul class="meninmenu d-flex justify-content-start">
-  								<li class="drop"><a href="index.php">Home</a></li>
-  								<li class="drop"><a href="registro.php">Registro</a>
-  							  <li class="drop"><a href="login.php">Iniciar sesion</a>
-  								<li class="drop"><a href="faq.php">F.A.Q</a>
-  								<li class="drop"><a href="contact.php">Contacto</a>
-                    	<li class="drop"><a href="perfil.php">Perfil</a>
-  							</ul>
-  									</div>
-  								</li>
-  									</div>
-  								</li>
-  									</div>
-  								</li>
-  						</nav>
-  					</div>
+  				
   		</header>
 
           <div class="ht__bradcaump__area bg-image--3">
@@ -118,8 +91,6 @@ session_start();
                   </div>
               </div>
           </div>
-    <?php //incluyo el header:
-      ?>
 
     <div class="container">
       <h4>Iniciar Sesión</h4>
@@ -149,10 +120,6 @@ session_start();
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
    <footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
      <div class="footer-static-top">
        <div class="container">
@@ -165,28 +132,11 @@ session_start();
                  </a>
                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages</p>
                </div>
-               <div class="footer__content">
-                 <ul class="social__net social__net--2 d-flex justify-content-center">
-                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                   <li><a href="#"><i class="bi bi-google"></i></a></li>
-                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                   <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                   <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                 </ul>
-               </div>
              </div>
            </div>
          </div>
        </div>
      </div>
-     <div class="copyright__wrapper">
-       <div class="container">
-         <div class="row">
-           <div class="col-lg-6 col-md-6 col-sm-12">
-             <div class="copyright">
-               <div class="copy__right__inner text-left">
-                 <p>Copyright <i class="fa fa-copyright"></i> <a href="https://freethemescloud.com/">Free themes Cloud.</a> All Rights Reserved</p>
-               </div>
              </div>
            </div>
          </div>
