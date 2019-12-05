@@ -52,12 +52,10 @@ if ($_POST) {
              <div class="container">
                  <div class="row">
                      <div class="col-lg-12">
-                         <div class="bradcaump__inner text-center">
-                         	<h2 class="bradcaump-title">Contacto</h2>
+                         <div class="bradcaump__inner text-center"><br>
+                         	<h2 class="bradcaump-title">Contactanos!!!</h2><br>
                              <nav class="bradcaump-content">
-                               <a class="breadcrumb_item" href="index.php">Home</a>
-                               <span class="brd-separetor">/</span>
-                               <span class="breadcrumb_item active">Contacto</span>
+
                              </nav>
                          </div>
                      </div>
