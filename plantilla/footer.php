@@ -1,12 +1,5 @@
 <?php
-$seLogeo = false;
-
-  if($_SESSION) {
-    $selogeo = true;
-  }
-  else{
-    $selogeo= false;
-  }
+$seLogeo = isset($_SESSION);
   ?>
 <html lang="en" dir="ltr">
   <head>
@@ -15,9 +8,6 @@ $seLogeo = false;
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="fontawesome-free-5.10.1-web/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-
-
   </head>
   <body>
 
@@ -32,11 +22,10 @@ $seLogeo = false;
 
           <div class="menu-footer">
                 <ul>
-                  <?php if($selogeo!=true){ ?>
+                  <?php if(!$seLogeo){ ?>
                   <li><i class="fas fa-user-edit"></i> <a href="registro.php">REGISTRO</a></li>
                   <li><i class="fas fa-user"></i> <a href="login.php">LOGIN</a></li>
-                <?php } ?>
-                <?php if($selogeo==true){ ?>
+              <?php }else{ ?>
                   <li><i class="fas fa-user-edit"></i> <a href="perfil.php">MI PERFIL</a></li>
                   <li><i class="fas fa-user"></i> <a href="logout.php">CERRAR SESION</a></li>
                 <?php } ?>
