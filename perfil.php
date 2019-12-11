@@ -28,19 +28,20 @@ $autenticar = new Autenticador();
   </head>
   <?php
 require_once('plantilla/header.php');
+require_once('plantilla/menu.php');
    ?>
   <body>
     <h1>Bienvenido</h1>
-  <div class="continer"; >
+  <div class="container">
     <form class="" action="registro.php" method="post" enctype="multipart/form-data">
     <input class="controles" type="text" name="nombres" placeholder =" nombre">
 
   </div>
   <br>
-  <div class = "continer"; >
+  <div class = "container">
 julian-gomez@gmail.com
   </div>
-<div class="continer";>
+<div class="container">
   <textarea name="Mensaje" class="form-textarea" placeholder="Escriba mensaje aqui..."></textarea>
 <div>
   <input type="submit" name="ENVIAR" value="ENVIAR">
