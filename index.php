@@ -32,7 +32,7 @@
     <div class="row">
       <div class="col">
         <img src="img/imagen 2.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
+        <button type="button" class="btn btn-primary btn-lg" href= "carrito.php">Comprar</button>
       </div>
       <div class="col">
         <img src="img/imagen3.png" alt="producto"><br>

@@ -5,13 +5,13 @@ session_start();
     $errores=[];
     $usuario=[];
     $_SESSION['selogeo']="";
-    if($_POST['email']!=''){
+    if(isset($_POST['email'])!=''){
       $email=$_POST['email'];
     }
     else{
       $errores[]="Ingrese su email";
     }
-    if($_POST['password']!=''){
+    if(isset($_POST['password'])!=''){
       $password=$_POST['password'];
     }
     else{
