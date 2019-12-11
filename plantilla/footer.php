@@ -5,7 +5,7 @@ $seLogeo = isset($_SESSION);
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="footer.css">
+
     <link rel="stylesheet" href="fontawesome-free-5.10.1-web/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
