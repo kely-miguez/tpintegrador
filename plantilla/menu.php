@@ -1,5 +1,4 @@
 <header>
-  
 
   <!--Navbar-->
   <nav class="navbar navbar-light navbar-5 white">
@@ -10,7 +9,11 @@
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
       aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <ion-icon name="cart"></ion-icon>
+      <ion-icon src="/path/to/external/file.svg"></ion-icon>
+      <ion-icon name="contact"></ion-icon>
+      <ion-icon src="/path/to/external/file.svg"></ion-icon>
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent15">
 
