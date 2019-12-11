@@ -30,7 +30,7 @@ $autenticar = new Autenticador();
 
 
 
- <link rel="stylesheet" href="perfil.php">
+ <link rel="stylesheet" href="CSS/registro.php">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  <link rel="stylesheet" href="CSS/stylos.css">
@@ -50,7 +50,7 @@ require_once('plantilla/menu.php');
                      <div class="row">
                          <div class="col-lg-12">
                              <div class="bradcaump__inner text-center">
-                             	<h2 class="bradcaump-title">Bienvenidos!!!</h2>
+                             	<h2 class="bradcaump-title">Bienvenido!!!</h2>
 
                              </div>
                          </div>
@@ -78,7 +78,7 @@ require_once('plantilla/menu.php');
   <div class = "container">
   <form class="" action="logout.php" method="post">
       <button type="submit" class="btn btn-secondary btn-sm" name="button">Compras realizadas</button>
-     <button type="submit" class="btn btn-secondary btn-sm" name="button">Cerrar secion</button>
+     <button type="submit" class="btn btn-secondary btn-sm" name="button">Cerrar sesion</button>
 
   </form>
   <a href="logout.php">Salir</a>
