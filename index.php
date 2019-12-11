@@ -24,25 +24,28 @@
      <span class="sr-only">Next</span>
    </a>
   </div>
-  </section>
+</section>
+
+  <h1 class="title">Productos</h1>
+
   <div class="container">
     <div class="row">
       <div class="col">
         <img src="img/imagen 2.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
       </div>
       <div class="col">
         <img src="img/imagen3.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
       </div>
       <div class="w-100"></div>
       <div class="col">
         <img src="img/imagen4.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
       </div>
       <div class="col">
         <img src="img/imagen5.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
       </div>
     </div>
   </div>
