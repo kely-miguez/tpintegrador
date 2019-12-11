@@ -19,7 +19,8 @@ require_once('plantilla/menu.php');
 						</nav>
 									</div>
 								</li>
-			</div>
+
+
 		</header>
 
 

@@ -32,8 +32,8 @@ require_once('plantilla/menu.php');
    ?>
   <body>
     <h1>Bienvenido</h1>
-  <div class="container">
-    <form class="" action="registro.php" method="post" enctype="multipart/form-data">
+  <div class="continer"; >
+    <form class="" action="login.php" method="post" enctype="multipart/form-data">
     <input class="controles" type="text" name="nombres" placeholder =" nombre">
 
   </div>

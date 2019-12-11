@@ -47,7 +47,7 @@ require_once('plantilla/menu.php');
       ];
       $errorEmail='';
      if($_POST){
-       if ($_FILES['avatar']['error'] === 0) {
+       if (isset($_FILES) && isset($_FILES['avatar']) && $_FILES['avatar']['error'] === 0) {
 
            $ext = pathinfo($_FILES['avatar']['name'], PATHINFO_EXTENSION);
 
@@ -66,13 +66,13 @@ require_once('plantilla/menu.php');
            $errores['nombres']="El nombre no puede estar vacío";
 
          }
-         if($_POST['apellido']!=''){
+         if(isset($_POST['apellido']) && $_POST['apellido']!=''){
            $usuario['apellido'] = $_POST['apellido'];
          }
          else{
            $errores['apellido']="El apellido no puede estar vacío";
          }
-         if($_POST['email']!=''){
+         if(isset($_POST['email'])!=''){
 
            $usuario['email'] = $_POST['email'];
 
@@ -90,19 +90,19 @@ require_once('plantilla/menu.php');
          else {
           $errores['email']="Ingrese un email";
          }
-        if($_POST['password']!=''){
+        if(isset($_POST['password'])!=''){
           $usuario['password'] = $_POST['password'];
         }
         else {
          $errores["password"]="La contraseña no puede estar vacía";
         }
-        if($_POST['confirmacion']!=''){
+        if(isset($_POST['confirmacion'])!=''){
           $usuario['confirmacion'] = $_POST['confirmacion'];
         }
         else {
           $errores["password"]= "Confirme su contraseña";
         }
-        if($_POST['password'] != $_POST['confirmacion']){
+        if(isset($_POST['password']) != isset($_POST['confirmacion'])){
           $errores["password"]="Las contraseñas no coinciden";
         }
         if($errores['nombres']==""&&$errores['apellido']==""&&$errores['email']==""&&$errores['password']==""){
