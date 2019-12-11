@@ -19,23 +19,49 @@ $autenticar = new Autenticador();
 
    echo 'Bienvenido ' . $_SESSION['email'];
 ?>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="CSS/perfil.css">
+<!doctype html>
+<html class="en" lang="ltr">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <title>Iniciar sesion /Dayross</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title></title>
-  </head>
+
+
+ <link rel="stylesheet" href="perfil.php">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="CSS/stylos.css">
+ <link rel="stylesheet" href="CSS/login.css">
+
+ </head>
+ <body>
+
   <?php
 require_once('plantilla/header.php');
 require_once('plantilla/menu.php');
    ?>
-  <body>
-    <h1>Bienvenido</h1>
-  <div class="continer"; >
-<<<<<<< HEAD
+
+   <br>
+             <div class="ht__bradcaump__area bg-image--3">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-12">
+                             <div class="bradcaump__inner text-center">
+                             	<h2 class="bradcaump-title">Bienvenidos!!!</h2>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+   <br>
+
+  <div class="container">
+
     <form class="" action="registro.php" method="post" enctype="multipart/form-data">
-    <input class="controles" type="text" name="nombres" placeholder ="">
 
   </div>
   <br>
@@ -43,32 +69,23 @@ require_once('plantilla/menu.php');
 
   </div>
 
-=======
+
     <form class="" action="login.php" method="post" enctype="multipart/form-data">
-    <input class="controles" type="text" name="nombres" placeholder =" nombre">
+    <input class="controles" type="text" name="nombres" placeholder ="">
 
   </div>
   <br>
   <div class = "container">
-julian-gomez@gmail.com
-  </div>
-<div class="container">
-  <textarea name="Mensaje" class="form-textarea" placeholder="Escriba mensaje aqui..."></textarea>
->>>>>>> e266ddcbc240d98f636cb6b73c7845203e9de33a
-<div>
-  <input type="submit" name="ENVIAR" value="ENVIAR">
-</div>
-
-  <div >
-<input type="submit" name="compras realizadas" value="compras realizadas">
-
-  </div>
   <form class="" action="logout.php" method="post">
-      <button type="submit" name="button">Cerrar Sesion</button>
+      <button type="submit" class="btn btn-secondary btn-sm" name="button">Compras realizadas</button>
+     <button type="submit" class="btn btn-secondary btn-sm" name="button">Cerrar secion</button>
+
   </form>
   <a href="logout.php">Salir</a>
+    </div>
   <?php
   require_once('plantilla/footer.php');
    ?>
   </body>
+
 </html>
