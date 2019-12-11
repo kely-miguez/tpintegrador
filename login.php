@@ -70,7 +70,7 @@ session_start();
   <body>
 
 
-  		</header>
+  		
 
 <?php
 require_once('plantilla/header.php');
