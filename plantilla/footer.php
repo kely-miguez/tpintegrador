@@ -1,7 +1,7 @@
 <?php
 $seLogeo = false;
 
-  if($_SESSION){
+  if($_SESSION) {
     $selogeo = true;
   }
   else{
