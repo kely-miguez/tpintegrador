@@ -1,7 +1,7 @@
 h1.class.title{
   text-align: center;
   text-decoration-color: red;
-  
+
 }
 
 
@@ -40,7 +40,8 @@ li{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-
+  color: red;
+  text-align: center;
 }
 footer{
 background-color: #e5928552;
