@@ -33,19 +33,18 @@ require_once('plantilla/header.php');
     <h1>Bienvenido</h1>
   <div class="continer"; >
     <form class="" action="registro.php" method="post" enctype="multipart/form-data">
-    <input class="controles" type="text" name="nombres" placeholder =" nombre">
+    <input class="controles" type="text" name="nombres" placeholder ="">
 
   </div>
   <br>
   <div class = "continer"; >
-julian-gomez@gmail.com
+
   </div>
-<div class="continer";>
-  <textarea name="Mensaje" class="form-textarea" placeholder="Escriba mensaje aqui..."></textarea>
+
 <div>
   <input type="submit" name="ENVIAR" value="ENVIAR">
 </div>
-</div>
+
   <div >
 <input type="submit" name="compras realizadas" value="compras realizadas">
 
