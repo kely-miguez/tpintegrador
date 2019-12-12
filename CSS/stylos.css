@@ -48,11 +48,27 @@ img{
 
 }
 
+textarea{
+  width: 100%;
+  border-radius: 2px;
+}
+
+form{
+padding: 20px;
+margin: 0 auto;
+}
+input{
+border-radius: 20px;
+padding: 10px;
+width: 100%;
+}
 
 footer{
 background-color: #e5928552;
 margin-top: 20px;
 }
+
+
 
 footer div.img.logo{
   width: 100%;
@@ -60,6 +76,7 @@ footer div.img.logo{
   text-align: center;
 
 }
+
 
 
 footer div.menu-footer{

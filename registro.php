@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
 
-    <title>Formulario de registro</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="CSS/registro.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -127,8 +127,8 @@ require_once('plantilla/menu.php');
 
         <?php  ?>
 
-        <div class="container">
-          <h4>FORMULARIO DE REGISTRO</h4>
+        <div class="container"><br>
+          <h4>REGISTRO</h4>
 
           <form class="" action="registro.php" method="post" enctype="multipart/form-data">
             <div class="error"><?php echo $errores['nombres']; ?></div>

@@ -79,7 +79,7 @@ require_once('plantilla/menu.php');
                   <div class="row">
                       <div class="col-lg-12">
                           <div class="bradcaump__inner text-center">
-                          	<h2 class="bradcaump-title">Iniciar sesion</h2>
+                          	<h2 class="bradcaump-title">INICIAR SESION</h2>
 
                           </div>
                       </div>

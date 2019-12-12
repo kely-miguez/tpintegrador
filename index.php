@@ -28,7 +28,7 @@
 
   <h1 class="title">Productos</h1>
 
-  <div class="container">
+
     <div class="row">
       <div class="col">
         <form class="" action="carrito.php" method="get">
@@ -51,7 +51,7 @@
         </form>
       </div>
     </div>
-  </div>
+
 
 <?php
 require_once('plantilla/footer.php');
