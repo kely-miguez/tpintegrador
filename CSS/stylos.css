@@ -1,8 +1,12 @@
-h1.class.title{
+h1{
   text-align: center;
   text-decoration-color: red;
-
+  color: red;
 }
+
+
+
+
 
 
 header {
@@ -33,7 +37,9 @@ li{
   float: left;
   width: 20%;
 }
-
+img{
+  width: 100%;
+}
 *{
   margin:0;
   padding: 0;
@@ -41,6 +47,7 @@ li{
   font-family: 'Montserrat', sans-serif;
 
 }
+
 
 footer{
 background-color: #e5928552;
@@ -53,6 +60,8 @@ footer div.img.logo{
   text-align: center;
 
 }
+
+
 footer div.menu-footer{
   width: 100%;
   margin-bottom: 30px;

@@ -1,5 +1,6 @@
 ion-icon{
-  color: white;
+  color: #dc3545;
   font-size: 40px;
-  float: left;
+  position: relative;
+
 }

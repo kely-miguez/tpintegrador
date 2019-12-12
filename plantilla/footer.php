@@ -19,22 +19,20 @@ $seLogeo = isset($_SESSION);
 
           </div>
 
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
 
-          <div class="menu-footer">
-                <ul>
-                  <?php if(!$seLogeo){ ?>
-                  <li><i class="fas fa-user-edit"></i> <a href="registro.php">REGISTRO</a></li>
-                  <li><i class="fas fa-user"></i> <a href="login.php">LOGIN</a></li>
-              <?php }else{ ?>
-                  <li><i class="fas fa-user-edit"></i> <a href="perfil.php">MI PERFIL</a></li>
-                  <li><i class="fas fa-user"></i> <a href="logout.php">CERRAR SESION</a></li>
-                <?php } ?>
-                  <li><i class="far fa-question-circle"></i> <a href="preguntas.php">PREGUNTAS FRECUENTES</a></li>
-                  <li><i class="far fa-envelope"></i> <a href="contacto.php">CONTACTO</a></li>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
 
-                </ul>
+<ion-icon name="logo-snapchat"></ion-icon>
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
 
-          </div>
+<ion-icon name="pin"></ion-icon>
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
+
+<ion-icon name="logo-pinterest"></ion-icon>
+<ion-icon src="/path/to/external/file.svg"></ion-icon>          
 
         <div class="copyright">
           <span>Copyright 2019 - Dayross©</span>

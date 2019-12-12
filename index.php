@@ -9,10 +9,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
    <div class="carousel-inner">
      <div class="carousel-item active">
-       <img src="img/portada4.png" class="d-block w-100" alt="portada1">
+       <img src="img/foto.png" class="d-block w-100" alt="portada1">
      </div>
      <div class="carousel-item">
-       <img src="img/ropachico.jpg" class="d-block w-100" alt="portada3">
+       <img src="img/foto2.png" class="d-block w-100" alt="portada3">
      </div>
    </div>
    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
