@@ -26,6 +26,7 @@ $autenticar = new Autenticador();
 ?>
 
  <body>
+
   <div class="container">
 
     <form class="" action="registro.php" method="post" enctype="multipart/form-data">
