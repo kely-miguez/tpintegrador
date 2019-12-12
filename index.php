@@ -31,21 +31,24 @@
   <div class="container">
     <div class="row">
       <div class="col">
+        <form class="" action="carrito.php" method="get">
         <img src="img/imagen 2.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg" href= "carrito.php">Comprar</button>
+        <button type="submit" class="btn btn-primary btn-lg">Comprar</button>
+
       </div>
       <div class="col">
         <img src="img/imagen3.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
+        <button type="submit" class="btn btn-primary btn-lg">Comprar</button>
       </div>
       <div class="w-100"></div>
       <div class="col">
         <img src="img/imagen4.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
+        <button type="submit" class="btn btn-primary btn-lg">Comprar</button>
       </div>
       <div class="col">
         <img src="img/imagen5.png" alt="producto"><br>
-        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
+        <button type="submit" class="btn btn-primary btn-lg">Comprar</button>
+        </form>
       </div>
     </div>
   </div>

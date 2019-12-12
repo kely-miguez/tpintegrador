@@ -1,4 +1,9 @@
 <?php
+require_once('plantilla/header.php');
+require_once('plantilla/menu.php');
+ ?>
+
+  <?php
 require_once("./class/Autenticador.php");
 $autenticar = new Autenticador();
 
@@ -19,73 +24,27 @@ $autenticar = new Autenticador();
 
    echo 'Bienvenido ' . $_SESSION['email'];
 ?>
-<!doctype html>
-<html class="en" lang="ltr">
-<head>
- <meta charset="utf-8">
- <meta http-equiv="x-ua-compatible" content="ie=edge">
- <title>Iniciar sesion /Dayross</title>
- <meta name="description" content="">
- <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
- <link rel="stylesheet" href="CSS/registro.php">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="CSS/stylos.css">
- <link rel="stylesheet" href="CSS/login.css">
-
- </head>
  <body>
-
-  <?php
-require_once('plantilla/header.php');
-require_once('plantilla/menu.php');
-   ?>
-
-   <br>
-             <div class="ht__bradcaump__area bg-image--3">
-                 <div class="container">
-                     <div class="row">
-                         <div class="col-lg-12">
-                             <div class="bradcaump__inner text-center">
-                             	<h2 class="bradcaump-title">Bienvenido!!!</h2>
-
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-   <br>
 
   <div class="container">
 
     <form class="" action="registro.php" method="post" enctype="multipart/form-data">
-
-  </div>
-  <br>
-  <div class = "continer"; >
-
+</form>
   </div>
 
-
-    <form class="" action="login.php" method="post" enctype="multipart/form-data">
-    <input class="controles" type="text" name="nombres" placeholder ="">
-
-  </div>
-  <br>
   <div class = "container">
   <form class="" action="logout.php" method="post">
-      <button type="submit" class="btn btn-secondary btn-sm" name="button">Compras realizadas</button>
      <button type="submit" class="btn btn-secondary btn-sm" name="button">Cerrar sesion</button>
-
   </form>
+  <form class="" action="carrito.php" method="get">
+    <button type="submit" class="btn btn-secondary btn-sm" name="button">Compras realizadas</button>
+    </form>
   <a href="logout.php">Salir</a>
     </div>
-  <?php
-  require_once('plantilla/footer.php');
-   ?>
-  </body>
 
-</html>
+
+    </body>
+    <?php
+    require_once('plantilla/footer.php');
+     ?>
