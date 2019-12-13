@@ -32,16 +32,13 @@ $seLogeo = isset($_SESSION);
 <ion-icon src="/path/to/external/file.svg"></ion-icon>
 
 <ion-icon name="logo-pinterest"></ion-icon>
-<ion-icon src="/path/to/external/file.svg"></ion-icon>          
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
 
         <div class="copyright">
           <span>Copyright 2019 - Dayross©</span>
         </div>
 
       </footer>
-
-
-
 
   </body>
 </html>
