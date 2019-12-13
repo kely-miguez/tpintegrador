@@ -24,7 +24,7 @@
      <span class="sr-only">Next</span>
    </a>
   </div>
-</section>
+
 
   <h1 class="title">Productos</h1>
 
@@ -52,7 +52,7 @@
       </div>
     </div>
   </div>
-
+</section>
 <?php
 require_once('plantilla/footer.php');
  ?>
