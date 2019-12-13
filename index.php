@@ -26,13 +26,11 @@
      <span class="sr-only">Next</span>
    </a>
   </div>
-<<<<<<< HEAD
+
 </section>
 <br>
   <h1 class="niña">PRODUCTOS NIÑA</h1>
-=======
 
->>>>>>> ec599d2a04370e5aa718b2f68d799ff839638caa
 
 <section class="productos">
     <div class="row">
@@ -75,7 +73,7 @@
                  </div>
         </form>
     </div>
-<<<<<<< HEAD
+
     <br>
      <h1 class="niño">PRODUCTOS NIÑO</h1>
 
@@ -99,10 +97,6 @@
          <button type="submit" class="btn btn-primary btn-lg">Comprar</button>
        </div>
 
-=======
-  </div>
-</section>
->>>>>>> ec599d2a04370e5aa718b2f68d799ff839638caa
 
        <div class="w-100"></div>
        <div class="col-md-3">
