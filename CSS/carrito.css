@@ -4,3 +4,11 @@ ion-icon{
   position: relative;
 
 }
+.carrito{
+   text-align: center;
+   color: black;
+   font-family: sans-serif;
+   font-size: -webkit-xxx-large;
+   text-decoration: overline underline
+
+ }

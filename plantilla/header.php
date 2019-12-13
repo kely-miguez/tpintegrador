@@ -14,9 +14,12 @@
     <link rel="stylesheet" href="CSS/login.css">
 
 </head>
-<body>
 
-  <div class="container">
+
+
+
+
+
 <?php
 require_once('plantilla/menu.php');
  ?>

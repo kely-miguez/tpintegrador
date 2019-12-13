@@ -1,11 +1,41 @@
-h1{
+.niña {
   text-align: center;
-  text-decoration-color: red;
-  color: red;
+  color: #dc3545;
+  font-family: sans-serif;
+  font-size: -webkit-xxx-large;
+  text-decoration: overline underline
+}
+
+.carrito{
+  text-align: center;
+  color: #dc3545;
+  font-family: sans-serif;
+  font-size: -webkit-xxx-large;
+  text-decoration: overline underline
+}
+
+.niño{
+  text-align: center;
+  color: blue;
+  font-family: sans-serif;
+  font-size: -webkit-xxx-large;
+  text-decoration: overline underline
 }
 
 
+img{
+  width: 100%;
 
+}
+
+.principal{
+  width: 100%;
+}
+
+.productos{
+  width: 100%;
+  padding: 0;
+}
 
 
 
@@ -37,9 +67,7 @@ li{
   float: left;
   width: 20%;
 }
-img{
-  width: 100%;
-}
+
 *{
   margin:0;
   padding: 0;
